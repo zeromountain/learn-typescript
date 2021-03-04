@@ -1,30 +1,15 @@
 // JS 문자열 선언
-// var str = 'hello';
+var str = 'hello';
 
-// TS 문자열 선언
-let str: string = 'hello';
-
-// TS 숫자
-let num: number = 10;
-
-// TS 배열
-let arr: Array<number> = [1,2,3];
-let heroes: Array<string> = ['Capt', 'Thor', 'Hulk', 10]
-let items: number[] = [1,2,3];
-
-// TS 튜플
-let address: [string, number] = ['gangnam', 100];
-
-// TS 객체
-let obj: object = {};
-// let person: object = {
-//   name: 'capt',
-//   age: 100
-// };
-let person: { name: string, age: number } = {
-  name: 'thor',
-  age: 1000
-}
-
-// TS 진위값
-let show: boolean = true;
+// TS 문자열 타입 선언
+// str이라는 변수는 문자열 타입으로 정의하겠다.
+var str: string = 'hello';
+// TS 숫자 타입 선언
+var num: number = 10;
+// TS 배열 타입 선언
+// 배열 안의 요소의 타입을 숫자 타입으로 정의
+var arr: Array<number> = [1, 2, 3];
+// 배열 안의 요소의 타입을 정의한 타입으로 입력하지 않으면 오류 발생
+var heroes: Array<string> = ['Capt', 'Thor', 'Hulk', 10];
+// 배열 리터럴을 활용한 타입 표현
+var items: number[] = [1, 2, 3] 
